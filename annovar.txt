@@ -1,0 +1,11 @@
+#            Arguments to control input and output
+#--gff3dbfile <file>         specify the GFF3 DB file used in region-based annotation
+#--separate                  separately print out all function of a variant (default: one line per variant)
+#--vcfdbfile <file>          specify the DB file in VCF format in filter-based annotation
+#--transcript_function       use transcript name rather than gene name in gene-based annotation output
+#Arguments to download databases or perform annotations
+#--filter                    filter variants based on a position list
+#--gff3dbfile <file>         specify the GFF3 DB file used in region-based annotation
+#download gene annotation database and save to TAIR10/ (already done)
+#filter
+annotate_variation.pl -filter -dbtype generic -genericdbfile Col-0_snp_080605_annovar_db.txt WholeSequenceMerged.filtered.vcf.annovar annotation/
