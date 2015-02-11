@@ -27,6 +27,8 @@ See also: http://samtools.sourceforge.net/
 v0.0.0 - Original script
 v0.0.1 - Use append mode to add EOF block
 
+Script is modified from short program available on sourgeforce.net
+
 """
 
 import os
