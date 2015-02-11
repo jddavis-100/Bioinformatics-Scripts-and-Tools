@@ -30,7 +30,7 @@ samtools -bS > file.corrected.bam
 #3 a python script that adds EOF, but could have a few lines included to fix quality score
 
 
-phython script that could be altered to do the same thing as above
+python script that could be altered to do the same thing as above
 #!/usr/bin/env python
 """Python script to add missing EOF marker to BAM or BGZF files.
 
